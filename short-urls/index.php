@@ -69,7 +69,7 @@ if(isset($_POST['submit'])) {
                             <?php foreach($rows as $row) : ?>
                             <tr>
                             <th scope="row"><?php echo $row->url; ?></th>
-                            <td><a href="http://localhost/short-urls/u/index.php?id=<?php echo $row->id; ?>" target="_blank" > href="http://localhost/short-urls/<?php echo $row->id; ?> <a></td>
+                            <td><a href="http://localhost/short-urls/php_my_sql_shorts_projects/short-urls/u/index.php?id=<?php echo $row->id; ?>" target="_blank" > href="http://localhost/short-urls/<?php echo $row->id; ?> <a></td>
                             <td><?php echo $row->clicks; ?></td>
                          
                             </tr>
